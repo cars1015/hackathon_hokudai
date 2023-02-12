@@ -1,6 +1,6 @@
 $(".title").on("click", function () {
   //タイトル要素をクリックしたら
-  var findElm = $(this).next(".box"); //直後のアコーディオンを行うエリアを取得し
+  let findElm = $(this).next(".box"); //直後のアコーディオンを行うエリアを取得し
   $(findElm).slideToggle(); //アコーディオンの上下動作
 
   if ($(this).hasClass("close")) {
