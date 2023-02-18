@@ -1,0 +1,40 @@
+#title {
+  border-bottom: solid 2px #555;
+  margin-bottom: 50px;
+}
+
+#result {
+  width: 1000px;
+  height: 300px;
+  margin: 0 auto;
+  background-color: lavender;
+}
+#all {
+  text-align: center;
+}
+.owner {
+  border: black 1px solid; /*境界線の指定*/
+  padding: 7px 10px 5px 10px;
+  width: 50px;
+  margin-right: 20px;
+}
+.owner p {
+  margin: 0;
+  padding: 0;
+}
+.top {
+  display: flex;
+  justify-content: left; /* 子要素を中央揃え */
+  position: relative;
+}
+.tag {
+  border: blue 1px solid; /*境界線の指定*/
+  width: 50px;
+  margin-right: 3px;
+  border-radius: 20px;
+  padding: 0px 15px;
+  width: fit-content;
+}
+.tag p {
+  font-size: 11px;
+}
