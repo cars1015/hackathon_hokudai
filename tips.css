@@ -58,3 +58,7 @@ accordion-area {
   margin: 0 3% 3% 3%;
   padding: 3%;
 }
+
+.under_text {
+  text-decoration: underline;
+}
